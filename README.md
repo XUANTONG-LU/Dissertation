@@ -16,7 +16,8 @@ Dataset_folder:
 Each folder in the model corresponds to a training method mentioned in the dissertation. To train a model, run the `main.py` file in each folder. Once the training is finished, several folders will be automatically created containing the information about the training.
 ```
 logs: the log of the training process containing the configuration of the training, like batch size, epoch, loss function, etc. The training loss and validation loss will be reported batch-wise.
-save_weights: the weights saved after training. The training details are in the logs folder, which has a txt file with the same name. 
+save_weights: the weights saved after training. The training details are in the logs folder, which has a txt file with the same name.
+runs: the folder contains the history of training, which can be visualised by tensorboard.
 ```
 For the generation of synthesis data, examples are given in the folder `synthesisGenerator`. By putting the background and tools that you want to synthesise into a simple image and then running the Python script, a batch of synthesis images will be generated.
 ```
