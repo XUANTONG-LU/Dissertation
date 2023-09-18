@@ -38,5 +38,6 @@ synthesisGenerator:
     |_2.png
     :
     :
+|_retinalSynthesisGenerator.ipynb
 ```
 
